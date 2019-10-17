@@ -4,7 +4,10 @@ Department of Chemical & Biomolecular Engineering
 University of Illinois at Urbabna-Champaign
 
 Motivation:
-The motivation behind this analysis was to determine whether the proposed mechanism in B. subtilis 168 strain can possibly serve as a general mechanism for pH sensing by dCACHE_1 containing bacterial chemoreceptors. Our approach here was to assess the conservation of the key pH-sensing and the neighboring residues across bacterial species. 
+The motivation behind this analysis was to determine whether the proposed mechanism in B. subtilis 168 
+strain can possibly serve as a general mechanism for pH sensing by dCACHE_1 containing bacterial 
+chemoreceptors. Our approach here was to assess the conservation of the key pH-sensing and the neighboring
+residues across bacterial species. 
 Detailed description of the analysis is provided in  Materials and Methods of the corresponding manuscript.
 
 Required tools and python libraries:
