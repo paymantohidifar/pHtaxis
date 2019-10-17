@@ -1,0 +1,39 @@
+Parsing hits obtained from blastp search ...
+Total 25207 of hits were parsed from blastp search output.
+Processing the hits ...
+Total 22511 of hits remained after restricting hits to only species taxonomy level.
+Total 6561 of hits remained after removing the hits that did not align to membrane-proximal module.
+Total 4417 of hits remained after removing the hits that had less than 80% coverage [excluding gaps].
+Total 3150 of hits remained after removing duplicate sequences.
+----------------------------------------------------------------------------------------------------
+Running hmmscan to search each hit against Pfam 32.0 hmm profile database to determine the best domain matched
+(May take a few minutes ...)
+Total 3150 of unique domains were parsed for each hit.
+Processing domains ...
+100.00% of the hits have 'dCache_1' domain with 7e-48 < E-values < 6.2e-12.
+Total 3150 of hits were remained after removing hits with E-value > 1e-10
+Sequences of TM2-proximal region (90 aa) were extracted.
+Total 2238 of hits remained after removing duplicate sequences.
+----------------------------------------------------------------------------------------------------
+Running clustal omega for fast initial MSA ...
+Running trimal to remove badly aligned sequences ...
+Total 1823 of hits remained after removing badly aligned hits.
+Trimming alignments and collapsing highly similar hits with 95% cutoff ...
+Total 838 of hits remained after collapsing highly similar sequences with 0.95% similarity.
+
+Running Muscle for accurate MSA ...
+Hits that are potentially capable of pH-sensing are written to <../results/ph_aligned_seqs.fa>.
+Pie plot representing chemistry of pH amino acid residues is saved to <../results/figures/pie.sps>.
+pH loci sequences are written to <../results/lower_loci_logo.fa> and <../results/upper_loci_logo.fa>.
+----------------------------------------------------------------------------------------------------
+Running taxonkit to extract taxonomy lineages for species potentially capable of pH-taxis...
+Taxonomy lineages are written to <../results/ph_aligned_seqs.lineage.tsv>
+Total number of unique phylum: 3
+Total number of unique class: 4
+Total number of unique order: 5
+Total number of unique family: 12
+Total number of unique genus: 50
+Total number of unique species: 449
+----------------------------------------------------------------------------------------------------
+END.
+  
