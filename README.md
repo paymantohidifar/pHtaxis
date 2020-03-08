@@ -10,7 +10,7 @@ chemoreceptors. Our approach here was to assess the conservation of the key pH-s
 residues across bacterial species. 
 Detailed description of the analysis is provided in  Materials and Methods of the corresponding manuscript.
 
-Required tools and python libraries:
+>Required tools and python libraries:
 python (v-3.6)
 numpy (v-1.16.4)
 matplotlib (v-3.1.1)
@@ -21,6 +21,6 @@ MUSCLE (v-3.8.31)
 taxonkit (v-0.50)
 trimal (v-1.2)
 
-Usage:
+>Usage:
 Run "bash find_hits.sh" to obtain all significant hits.
 Run "python ph-paper.py" for full processing and analysis of the resulting hits from previous step.
