@@ -11,8 +11,9 @@ residues across bacterial species.
 Detailed description of the analysis is provided in  Materials and Methods of the corresponding manuscript.  
 
 
-><b>Required tools and python libraries:</b>  
-python (v-3.6)  
+<b>Required tools and python libraries:</b>  
+---
+>python (v-3.6)  
 numpy (v-1.16.4)  
 matplotlib (v-3.1.1)  
 blastp (v-2.9.0+)  
@@ -23,6 +24,7 @@ taxonkit (v-0.50)
 trimal (v-1.2)  
 
 
-><b>Usage:</b>  
-Run "bash find_hits.sh" to obtain all significant hits.  
+<b>Usage:</b>  
+---
+>Run "bash find_hits.sh" to obtain all significant hits.  
 Run "python ph-paper.py" for full processing and analysis of the resulting hits from previous step.  
